@@ -11,6 +11,12 @@ Pan, Alan J. (2018). Profit-Sentient Electronic Bartering Platform [Computer sof
 Note this software's license is GNU GPLv3.
 """
 
+import random
+secure_random = random.SystemRandom()
+
+products = ["A", "B", "C", "D", "E"]
+prices = [7, 8, 9, 10, 11, 12, 13]
+
 cash = 0
 demand = [("A", 5), ("B", 10), ("C", 15)]
 supply = [("A", 3), ("B", 10), ("C", 20)]
@@ -28,7 +34,12 @@ def transact():
                 if i[1] < j[1]:
                     collect = j[1] - i[1]
                     cash += collect
-                    supply.remove(i)
                     demand.remove(j)
                     print("sale: " + str(collect))
+    supply.clear()
     print("end cash: " + str(cash))
+    
+def populate(n):
+    for i in range(n):
+        buy(secure_random.choice(products), secure_random.choice(prices))
+        sell(secure_random.choice(products), secure_random.choice(prices))
