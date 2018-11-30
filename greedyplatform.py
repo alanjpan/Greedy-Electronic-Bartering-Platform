@@ -6,7 +6,7 @@ Created on Sat Oct 20 16:16:21 2018
 @affiliation: Shanghai Jiaotong University
 
 Suggested citation as computer software for reference:
-Pan, Alan J. (2018). Profit-Sentient Electronic Bartering Platform [Computer software]. Github repository <https://github.com/alanjpan/Profit-Sentient-Electronic-Bartering-Platform>
+Pan, Alan J. (2018). Greedy Electronic Bartering Platform [Computer software]. Github repository <https://github.com/alanjpan/Greedy-Electronic-Bartering-Platform>
 
 Note this software's license is GNU GPLv3.
 """
