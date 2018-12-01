@@ -2,7 +2,7 @@
 """
 Created on Sat Oct 20 16:16:21 2018
 
-@author: Alan Jerry Pan, CPA, CSC
+@author: Alan Jerry Pan, CPA, CSc student
 @affiliation: Shanghai Jiaotong University
 
 Suggested citation as computer software for reference:
